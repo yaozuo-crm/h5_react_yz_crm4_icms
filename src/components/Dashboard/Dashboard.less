@@ -1,0 +1,30 @@
+.Dashboard {
+    [class~="am-tab-bar"] {
+        padding-top: 123px;
+    }
+
+    [class~="am-tab-bar-bar"] {
+        height: 123px;
+        top: 0;
+
+        [class~="am-tab-bar-tab-title"] {
+            font-size: 26px;
+            margin-top: 16px;
+        }
+
+        &[class~="am-tab-bar-bar-hidden"] {
+            top: -123px;
+        }
+
+        [class~="am-tab-bar-tab-active"] {
+            [class~="am-tab-bar-tab-title"] {
+                color: #ef5522!important;
+            }
+        }
+
+        [class~="am-tab-bar-tab-icon"] [class~="tab-badge"] :last-child {
+            left: 0.4rem;
+            top: -0.1rem;
+        }
+    }
+}

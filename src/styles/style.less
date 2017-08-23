@@ -1,0 +1,83 @@
+@import "_reset";
+
+body {
+  font-family: Arial,Verdana,Sans-serif;
+}
+
+// [class~="invite-mask"] {
+//   position: fixed;
+//   top: 0;
+//   right: 0;
+//   left: 0;
+//   bottom: 0;
+//   height: 100%;
+//   z-index: 999;
+//   background-color: rgba(0, 0, 0, 0.4);
+// }
+
+// [class~="invite-wrap"] {
+//   position: fixed;
+//     overflow: auto;
+//     top: 0;
+//     right: 0;
+//     bottom: 0;
+//     left: 0;
+//     height: 100%;
+//     z-index: 999;
+//     outline: 0;
+//     display: flex;
+//     align-items: center;
+//     justify-content: center;
+
+//     [class~="invite"] {
+//       position: relative;
+
+//       [class~="invite-content"] {
+//         border-radius: .14rem;
+//         height: auto;
+//         padding-top: .3rem;
+//       }
+//     }
+// }
+
+[class~="am-modal-content"] {
+  overflow: visible;
+
+  &:before {
+    content: '';
+    display: block;
+    width: 97px;
+    height: 97px;
+    position: absolute;
+    top: -48.5px;
+    left: 50%;
+    margin-left: -48.5px;
+    background-image: url(../assets/img/zhikouling.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+
+  [class~="am-modal-header"] {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-top: 40px;
+    padding-bottom: 0;
+    
+    &:before {
+      content: '';
+      width: 91px;
+      height: 91px;
+      background-image: url(../assets/img/group_portrait.png);
+      background-repeat: no-repeat;
+      background-size: cover;
+      margin-right: 10px;
+    }
+
+    [class~="am-modal-title"] {
+      font-size: 32px;
+      color: #333;
+    }
+  }
+}
+

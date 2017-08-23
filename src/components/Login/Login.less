@@ -1,0 +1,67 @@
+.Login {
+    // width: 100vw;
+    // height: 100vh;
+    overflow: hidden;
+    display: flex;
+    // justify-content: center;
+    margin-top: 58px;
+    align-items: center;
+    flex-direction: column;
+
+    .logo {
+        width: 156px;
+
+        img {
+            width: 100%;
+            height: auto;
+            display: block;
+        }
+    }
+
+    .title {
+        font-size: 40px;
+        text-align: center;
+        letter-spacing: 10px;
+    }
+
+    [class*="am-list"] {
+        width: 100%;
+    }
+
+    .username-icon,
+    .password-icon {
+        background-image: url(../../assets/img/user.png);
+        background-size: cover;
+        width: 50px;
+        height: 50px;
+    }
+
+    .password-icon {
+        background-image: url(../../assets/img/password.png);
+    }
+
+    [class*="am-list-item am-input-item"] {
+        height: 89px;
+        min-height: 89px;
+        padding-left: 51px;
+        padding-right: 51px;
+
+        input {
+            font-size: 48px;
+            vertical-align: top;
+        }
+
+        [class*="am-input-label am-input-label-5"] {
+            width: initial;
+        }
+    }
+
+    .button {
+        width: 90%;
+        height: 89px;
+        font-size: 40px;
+        line-height: 89px;
+        background-color: #f85800;
+        border: none;
+    }
+}

@@ -1,0 +1,224 @@
+
+.modal-desc,.modal-content {
+    text-align: left;
+    padding: 30px 10px;
+}
+
+.modal-desc {
+    font-size: 28px;
+    color: #999;
+    border-bottom: 1px solid #c7c7c7;
+}
+
+.modal-content {
+    font-size: 24px;
+    color: #333;
+}
+
+.Home {
+    .tab-content-xiaoya {
+        color: red;
+
+        .featurebar {
+            background-color: #fff;
+            text-align: right;
+            padding: 8px 0;
+
+            [class~="am-button"] {
+                border: none;
+                font-size: 28px;
+                color: #00aaee;
+                background-color: #fff;
+
+                &:nth-child(1) {
+                    &:before {
+                        content: '';
+                        display: inline-block;
+                        width: 32px;
+                        height: 32px;
+                        background-image: url(../../assets/img/group_icon.png);
+                        background-repeat: no-repeat;
+                        background-size: cover;
+                        vertical-align: text-top;
+                        margin-right: 5px;
+                    }
+                }
+            }
+        }
+
+        .cards-desc {
+            color: #a5a5a5;
+            font-size: 24px;
+        }
+
+        [class~="am-card-header"] {
+            padding-top: 30px;
+            padding-bottom: 30px;
+        }
+
+        .one-step-marketing {
+            // 一键营销卡片1
+            // .card0 {}
+            [class~="am-card-header-content"] {
+                color: #f85800;
+                font-size: 32px;
+                font-weight: bold;
+            }
+
+            [class~="am-card-body"] {
+                border-top: none;
+                font-size: 28px;
+                color: #666;
+                padding-top: 0;
+                padding-bottom: 0;
+
+                .cards-btn {
+                    background-color: #ef5522;
+                    border: none;
+                    font-size: 32px;
+                    height: 90px;
+                    line-height: 90px;
+                }
+            }
+        }
+
+        .my-operational-data {
+            [class~="am-card-header-content"] {
+                padding-top: 30px;
+                color: #a5a5a5;
+                font-size: 28px;
+                white-space: nowrap;
+
+                img {
+                    width: 30px;
+                }
+            }
+
+            .extra-desc,.extra-text {
+                color: #a5a5a5;
+                font-size: 24px;
+            }
+
+            .extra-text {
+                margin-top: 10px;
+                color: #ff8208;
+            }
+
+            [class~="am-card-body"] {
+                border-top: none;
+                padding-top: 0;
+                padding-bottom: 0;
+
+                .body-left,.body-right {
+                    display: inline-block;
+                    width: 50%;
+                    padding-top: 30px;
+                    padding-bottom: 30px;
+                }
+
+                .body-left {
+                    text-align: left;
+                    vertical-align: top;
+                    color: #ff8208;
+                    font-size: 45px;
+                }
+
+                .body-right {
+                    border-top: 2px solid #ddd;
+                    text-align: right;
+                }
+            }
+        }
+
+        .best-activities {
+            .activity-cards-row {
+                display: flex;
+                justify-content: space-between;
+                align-content: center;
+            }
+            
+            .activity-card {
+                width: 49%;
+                display: inline-block;
+                position: relative;
+
+                &[class~="active"] {
+                    &:before {
+                        content: '';
+                        width: 69px;
+                        height: 69px;
+                        position: absolute;
+                        top: 0;
+                        left: 0;
+                        background-image: url(../../assets/img/new_icon.png);
+                        background-size: cover;
+                        background-repeat: no-repeat;
+                        background-position: center;
+                    }
+                }
+            }
+
+            [class~="am-card-header"] {
+                flex-direction: column;
+                padding-bottom: 0;
+
+                [class~="am-card-header-content"] {
+                    font-size: 28px;
+                    color: #333;
+                }
+
+                [class~="am-card-header-extra"] {
+                    font-size: 20px;
+                    color: #a5a5a5;
+                    white-space: nowrap;
+                    margin-top: 10px;
+                }
+            }
+
+            [class~="am-card-body"] {
+                padding-top: 0;
+                padding-bottom: 0;
+                border: none;
+
+                .poster {
+                    text-align: center;
+
+                    img {
+                        width: 230px;
+                    }
+                }
+
+                .left,.right {
+                    width: 50%;
+                    display: inline-block;
+                    text-align: center;
+
+                    .data {
+                        color: #ef5522;
+                        font-size: 24px;
+                    }
+
+                    .desc {
+                        color: #a5a5a5;
+                        font-size: 24px;
+                    }
+                }
+
+                .left {
+                    border-right: 3px solid #e5e5e5;
+                }
+
+                .btn {
+                    margin: 20px auto;
+                    width: 80%;
+                    font-size: 28px;
+                    background-color: #ef5522;
+                    border: none;
+                    height: 60px;
+                    line-height: 60px;
+                }
+            }
+        }
+        
+    }
+}
