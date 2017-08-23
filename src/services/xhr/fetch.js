@@ -1,4 +1,4 @@
-const rootPath = 'http://localhost:8123/api'; // 后端 API 根路径
+const rootPath = 'http://192.168.99.204:8123/api'; // 后端 API 根路径
 
 // function buildParams(obj) {
 //   if (!obj) {
